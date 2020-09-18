@@ -21,7 +21,7 @@ public void doLogin()
 {
 		
 	driver.get("http://gmail.com");
-	//driver.findElement(By.id("identifierID")).sendKeys("thezasri1997@gmail.com");
+	driver.findElement(By.id("identifierID")).sendKeys("thezasri1997@gmail.com");
 	//driver.findElement(By.id("Password")).sendKeys("sdfs");
 	}
 	@AfterSuite
